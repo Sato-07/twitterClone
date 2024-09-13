@@ -10,7 +10,7 @@ interface LayoutProps{
 export const Layout: FC<LayoutProps> = ({children}) => {
   return (
     <div className='h-screen bg-black'>
-        <div className='container h-full  mx-auto xl:mx-20  max-w-6xl'>
+        <div className='container h-full  mx-auto  lg:max-w-7xl'>
             <div className='grid grid-cols-4  h-full'>
                 <Sidebar/>
                 <div className='col-span-3 lg:col-span-2 border-x-[1px] border-neutral-800 '>
